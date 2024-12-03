@@ -45,7 +45,7 @@ Gantilah <API_KEY_ANDA> dengan API key yang Anda dapatkan dari OpenWeather.
 Setelah semua dependensi terinstal dan file .env sudah diatur, Anda dapat menjalankan program cuaca dengan perintah berikut:
 
 ```
-node weather.js
+node display-weather.js
 ```
 
 Program akan menampilkan prakiraan cuaca untuk kota yang Anda tentukan dalam kode (misalnya "Jakarta").
