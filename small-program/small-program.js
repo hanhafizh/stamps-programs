@@ -16,13 +16,13 @@ function isPrime(num) {
 // Proses dan cetak array
 let result = numbers
   .map((num) => {
-    if (isPrime(num)) return ""; // Skip prime numbers
+    if (isPrime(num)) return ""; // Lewati bilangan prima
     if (num % 3 === 0 && num % 5 === 0) return "FooBar";
     if (num % 3 === 0) return "Foo";
     if (num % 5 === 0) return "Bar";
     return num;
   })
   .filter((item) => item !== "")
-  .join(", "); // Remove empty entries and join
+  .join(", "); // Hapus entri kosong
 
 console.log(result);
