@@ -1,12 +1,12 @@
 # Dokumentasi dan Cara Penginstalan Penggunaan 
 
 ##1. Meng-clone Repository
-Untuk memulai, Anda perlu meng-clone repository ke komputer Anda. Gunakan perintah berikut di terminal atau command prompt:
+Untuk memulai, Anda perlu meng-clone repository ke komputer. Gunakan perintah berikut di terminal atau command prompt:
 
 ```
 git clone <URL_REPO>
 ```
-Gantilah <URL_REPO> dengan URL repository yang sesuai (misalnya, https://github.com/username/repo.git).
+Gantilah <URL_REPO> dengan URL repository yang sesuai.
 
 ##2. Masuk ke Direktori Proyek
 Setelah berhasil meng-clone repository, masuk ke dalam direktori proyek:
